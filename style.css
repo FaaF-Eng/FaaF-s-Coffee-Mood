@@ -104,9 +104,11 @@ html,body{
     left: 49%; /* Move a DIV para 50% da esquerda */
     transform: translate(-50%, -50%); /* Centraliza a DIV */
     height: 10vh;
+    user-select: none;
 }
 #coffe01{
     width: 250px;
+    user-select: none;
 }
 #footer{
     text-align: center; /* Centraliza o texto horizontalmente */
