@@ -52,18 +52,18 @@ function animarEnchimento() {
 // Botão "empty"
 btnEmpty.onclick = function() {
     console.log('botão empty funciona');
-    criarMensagem('FILLING COFFE!'); // Cria a mensagem do botão "empty"
+    criarMensagem('FILLING COFFEE!'); // Cria a mensagem do botão "empty"
     animarEnchimento(); // Inicia a animação de enchimento
 };
 
 // Botão "full"
 btnFull.onclick = function() {
     console.log('botão full funciona');
-    criarMensagem('DRINK COFFE!'); // Cria a mensagem do botão "full"
+    criarMensagem('DRINK COFFEE!'); // Cria a mensagem do botão "full"
 };
 
 // Botão "nice"
 btnNice.onclick = function() {
     console.log('botão nice funciona');
-    criarMensagem('THANKS FOR THE COFFE!'); // Cria a mensagem do botão "nice"
+    criarMensagem('THANKS FOR THE COFFEE!'); // Cria a mensagem do botão "nice"
 };
