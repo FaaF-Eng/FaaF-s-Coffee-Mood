@@ -1,0 +1,118 @@
+html,body{
+    background-color: #F8F3D9;
+}
+#titulo{ 
+    color: #504B38;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 10px; /* Espaçamento interno */
+    position: fixed; /* Fixa o footer na parte de baixo */
+    top: 0; /* Cola o footer no final da página */
+    left: 0; /* Alinha à esquerda */
+    right: 0; /* Alinha à direita */
+}
+#subtitulo{
+    color: #504B38;
+    font-family:  Georgia, serif;
+    font-size: 50px;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 100px; /* Espaçamento interno */
+    position: fixed; /* Fixa o footer na parte de baixo */
+    top: 0; /* Cola o footer no final da página */
+    left: 0; /* Alinha à esquerda */
+    right: 0; /* Alinha à direita */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 180px;
+}
+
+#message-div {
+    color: #504B38;
+    width: 300px;
+    padding: 20px; 
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    top: 80%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta o posicionamento */
+    overflow: hidden; /* Esconde o texto que ainda não foi "digitado" */
+    border-right: 2px solid #504B38; /* Cursor de digitação */
+    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+    animation: typing 3s steps(40, end), blink-cursor 0.75s step-end infinite;
+}
+
+/* Animação de digitação */
+@keyframes typing {
+    from {
+        width: 0; /* Começa com largura zero */
+    }
+    to {
+        width: 50%; /* Termina com a largura total */
+    }
+}
+
+/* Animação do cursor piscando */
+@keyframes blink-cursor {
+    from, to {
+        border-color: transparent; 
+    }
+    50% {
+        border-color: transparent; 
+    }
+}
+.btn {
+    font-family: "Open Sans", sans-serif; /* Define a fonte do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+    text-decoration: none; /* Remove sublinhado do texto */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    color: #504B38; /* Cor do texto */
+    cursor: pointer; /* Muda o cursor para pointer (mãozinha) */
+    border: 3px solid; /* Borda sólida de 3px */
+    padding: 0.25em 0.5em; /* Espaçamento interno (vertical e horizontal) */
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px; /* Efeito de sombra em camadas */
+    position: relative; /* Permite ajustar a posição do botão */
+    user-select: none; /* Impede a seleção de texto */
+    -webkit-user-select: none; /* Versão para navegadores baseados em WebKit */
+    touch-action: manipulation; /* Melhora a interação em dispositivos touch */
+    
+}
+  
+.btn:active {
+    box-shadow: 0px 0px 0px 0px; /* Remove a sombra quando o botão é clicado */
+    top: 5px; /* Move o botão 5px para baixo */
+    left: 5px; /* Move o botão 5px para a direita */
+}
+  
+@media (min-width: 768px) {
+.btn {
+      padding: 0.25em 0.75em; /* Aumenta o padding horizontal em telas maiores */
+    }
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 55%; /* Move a DIV para 50% do topo */
+    left: 49%; /* Move a DIV para 50% da esquerda */
+    transform: translate(-50%, -50%); /* Centraliza a DIV */
+    height: 10vh;
+}
+#coffe01{
+    width: 250px;
+}
+#footer{
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 10px; /* Espaçamento interno */
+    position: fixed; /* Fixa o footer na parte de baixo */
+    bottom: 0; /* Cola o footer no final da página */
+    left: 0; /* Alinha à esquerda */
+    right: 0; /* Alinha à direita */
+}
