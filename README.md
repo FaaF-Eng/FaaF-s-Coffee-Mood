@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="imagem" alt="Exemplo imagem">
+<img src="img/coffee.png" alt="imagem cafe">
 
 > O FaaF's Coffee Mood é um site interativo onde você clica para indicar se sua caneca de café está cheia ou vazia. Ao escolher 'Empty', uma animação em pixel art mostra o café enchendo. Feito com HTML, CSS e JavaScript, é uma experiência simples e divertida!.
 
