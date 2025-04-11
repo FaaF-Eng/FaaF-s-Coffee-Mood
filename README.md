@@ -33,5 +33,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Projeto independente criado por mim: 
 
-https://www.linkedin.com/in/f%C3%A1bio-teixeira-479919238/
+www.linkedin.com/in/eng-fabio-teixeira
+
+
 
